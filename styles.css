@@ -1,0 +1,86 @@
+/* Importa as fontes 'Permanent Marker' e 'Noto Sans' do Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Permanent+Marker|Noto+Sans);
+
+/* Configurações gerais para o documento */
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Classe para destacar texto */
+.highlight {
+  color: white;
+  font-weight: bolder;
+}
+
+/* Estilos para o contêiner principal */
+.main-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #181819;
+}
+
+/* Estilos para o contêiner do texto */
+.font-container {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+}
+
+/* Estilos para o título */
+h5 {
+  transition: linear;
+  animation: fontanimation 7s infinite;
+  position: absolute;
+  color: #f8f8ff;
+  font-family: "Permanent Marker", cursive;
+}
+
+/* Estilos para o guia/instrução */
+.guide {
+  max-width: 100%;
+  text-align: center;
+}
+
+/* Estilos para o parágrafo */
+p {
+  color: white;
+  opacity: 1;
+  font-weight: bolder;
+  text-shadow: 1px 1px rgb(10, 19, 196);
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 30px;
+  padding-top: 50px;
+}
+
+/* Animação do título */
+@keyframes fontanimation {
+  0% {
+    font-size: 0;
+    left: 10%;
+    opacity: 0;
+  }
+  70% {
+    opacity: 1;
+    left: 70%;
+    font-size: 50px;
+    transform: rotate(700deg);
+  }
+  100% {
+    left: 5%;
+    opacity: 0;
+    font-size: 0;
+  }
+}
