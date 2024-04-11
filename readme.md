@@ -28,10 +28,3 @@ O projeto é organizado da seguinte forma:
 2. Abra o arquivo `index.html` em um navegador web.
 3. Clique em qualquer lugar na página para ver o mês e a data atuais.
 
-## Contribuição 🤝
-
-Contribuições são bem-vindas! Se você encontrar problemas ou tiver sugestões para melhorias, sinta-se à vontade para abrir uma issue ou enviar um pull request.
-
-## Licença ⚖️
-
-Este projeto está licenciado sob a [Licença MIT](LICENSE).
